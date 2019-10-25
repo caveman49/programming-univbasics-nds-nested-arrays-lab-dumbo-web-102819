@@ -17,8 +17,14 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  # Build an array that contains (or, "nests") the residents of The Ennet House
-  # and the Enfield Tennis Academy as provided by the constants
+  shelf_1 = ["Mace", "Ginger", "Marojam"]
+shelf_2 = ["Paprika", "Fajita Mix", "Coriander"]
+shelf_3 = ["Parsley", "Sage", "Rosemary"]
+ 
+spice_rack = [
+  shelf_1,
+  shelf_2,
+  shelf_3,
 end
 
 def array_literal_matrix
